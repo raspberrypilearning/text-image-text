@@ -1,59 +1,26 @@
-## Introduction
+![A screenshot of a webpage with a text block, then an image block and then another text block. Each block is of the same height.](images/three-tiles.PNG)
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+The code example below will create three tiles of equal height. The text within the tile will be centred on the x and y axis. 
 
-### What you will make
++ `xcenter` places the text in the centre horizontally
++ `ycenter` places the text in the center vertically
++ `tile` sets a fixed height for the `div` content
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: HTML
+filename: index.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
 ---
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+      <section class="wrap">
+        <div class="tertiary xcenter ycenter tile">
+          <p>Add text here.</p>
+        </div>
+        <img src="placeholder.png" alt="Description of the image.">
+        <div class="tertiary xcenter ycenter tile">
+          <p>Add text here.</p>
+        </div>
+      </section>
+--- /code ---
