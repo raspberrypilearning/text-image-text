@@ -1,6 +1,6 @@
 ![A screenshot of a webpage with a text block, then an image block and then another text block. Each block is of the same height.](images/three-tiles.PNG)
 
-The code example below will create three tiles of equal height. The text within the tile will be centred on the x and y axis. 
+The code example below will create three tiles. The first tile contains text, the second tile is an image and the third tile contains text. The two text blocks are of equal height using the `tile` class. 
 
 + `xcenter` places the text in the centre horizontally
 + `ycenter` places the text in the center vertically
@@ -23,4 +23,19 @@ line_highlights:
           <p>Add text here.</p>
         </div>
       </section>
+--- /code ---
+
+If you need to adjust the height of the text boxes then you can change the CSS code:
+
+--- code ---
+---
+language: CSS
+filename: style.css
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+.tile {
+  height: 9.4rem;
+}
 --- /code ---
