@@ -1,10 +1,10 @@
-![A webpage with a text block, then an image block, and then another text block. Each block is the same height.](images/three-tiles.PNG)
+![Une page web avec un bloc de texte, puis un bloc d'image, puis un autre bloc de texte. Chaque bloc a la même hauteur.](images/three-tiles.PNG)
 
-The code example creates three tiles. The first tile contains text, the second tile is an image, and the third tile contains text. The two text blocks are of equal height using the `tile` class.
+L'exemple de code crée trois tuiles. La première tuile contient du texte, la seconde tuile est une image, et la troisième tuile contient du texte. Les deux blocs de texte sont de même hauteur en utilisant la classe `tile`.
 
-- `xcenter` places the text in the centre horizontally
-- `ycenter` places the text in the centre vertically
-- `tile` sets a fixed height for the `div` content
+- `xcenter` place le texte au centre horizontalement
+- `ycenter` place le texte au centre verticalement
+- `tile` définit une hauteur fixe pour le contenu `div`
 
 ## --- code ---
 
@@ -18,18 +18,18 @@ line_highlights:
 ```
   <section class="wrap">
     <div class="tertiary xcenter ycenter tile">
-      <p>Add text here.</p>
+      <p>Ajouter du texte ici.</p>
     </div>
     <img src="placeholder.png" alt="Description of the image.">
     <div class="tertiary xcenter ycenter tile">
-      <p>Add text here.</p>
+      <p>Ajouter du texte ici.</p>
     </div>
   </section>
 ```
 
 \--- /code ---
 
-If you need to adjust the height of the text boxes, then you can change the CSS code.
+Si tu dois ajuster la hauteur des zones de texte, tu peux modifier le code CSS.
 
 ## --- code ---
 
